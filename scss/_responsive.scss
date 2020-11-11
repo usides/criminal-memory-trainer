@@ -1,0 +1,16 @@
+@include media-big {
+  .game-board {
+    width: 480px;
+    height: 600px;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .back {
+    img {
+      width: 6rem;
+    }
+  }
+}
