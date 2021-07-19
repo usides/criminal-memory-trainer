@@ -185,6 +185,7 @@ main {
   padding: 0.5rem;
   -webkit-transition: background-color 300ms ease;
   transition: background-color 300ms ease;
+  cursor: pointer;
 }
 
 .back img {
@@ -200,6 +201,17 @@ footer {
   -ms-flex-negative: 0;
       flex-shrink: 0;
   background-color: #001c31;
+}
+
+.description {
+  padding: 0.8rem;
+  text-transform: none;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.description a {
+  color: #fff;
 }
 
 .credits {
@@ -221,6 +233,9 @@ footer {
 
 @media (hover: hover) and (pointer: fine) {
   .credits a:hover {
+    color: #ff0000;
+  }
+  .description a:hover {
     color: #ff0000;
   }
   .new-game:hover {

@@ -125,6 +125,7 @@ main {
   align-items: center;
   padding: 0.5rem;
   transition: background-color 300ms ease;
+  cursor: pointer;
   img {
     width: 4rem;
   }
@@ -137,6 +138,16 @@ main {
 footer {
   flex-shrink: 0;
   background-color: $darkblue;
+}
+
+.description {
+  padding: 0.8rem;
+  text-transform: none;
+  max-width: 500px;
+  margin: 0 auto;
+  a {
+    color: #fff;
+  }
 }
 
 .credits {
@@ -156,6 +167,11 @@ footer {
 
 @media (hover: hover) and (pointer: fine) {
   .credits {
+    a:hover {
+      color: $alert;
+    }
+  }
+  .description {
     a:hover {
       color: $alert;
     }
